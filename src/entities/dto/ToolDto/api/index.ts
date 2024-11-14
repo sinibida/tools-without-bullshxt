@@ -10,5 +10,11 @@ export async function getAllTools() {
 export async function getTool(id: number) {
   const tools = await getAllTools();
 
-  return tools.find(x => x.id === id);
+  const ret = tools.find(x => x.id === id);
+
+  if (ret === undefined) {
+    throw Error("Tool not found.")
+  }
+
+  return ret;
 }

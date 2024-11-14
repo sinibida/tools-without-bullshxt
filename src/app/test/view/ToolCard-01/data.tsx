@@ -1,7 +1,8 @@
-import { ToolCardViewData } from "@/components/ToolCard/model";
+import { ToolCardViewData } from "@/components/organism/ToolCard";
 
 export const viewData: ToolCardViewData[] = [
   {
+    id: 1,
     title: "Lorem Ipsum",
     description:
       "Deserunt elit ea in reprehenderit ea cupidatat in ex enim irure do.",
@@ -10,6 +11,7 @@ export const viewData: ToolCardViewData[] = [
     toolUrl: "https://www.google.com/",
   },
   {
+    id: 2,
     title: "Metronome",
     description: "Normal Metronome App",
     tags: ["Music", "Metronome"],

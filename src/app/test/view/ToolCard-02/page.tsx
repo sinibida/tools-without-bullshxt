@@ -1,13 +1,9 @@
-import ToolCardView from "@/components/ToolCard/ui/ToolCardView";
-import React from "react";
-import { viewData } from "./data";
+import { ToolCard } from "@/components/organism/ToolCard";
 
 export default function page() {
   return (
     <div>
-      {viewData.map((data, i) => (
-        <ToolCardView key={i} data={data} />
-      ))}
+      <ToolCard id={1} />
     </div>
   );
 }

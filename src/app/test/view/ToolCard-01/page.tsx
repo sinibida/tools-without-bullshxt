@@ -1,4 +1,4 @@
-import ToolCardView from "@/components/ToolCard/ui/ToolCardView";
+import ToolCardView from "@/components/organism/ToolCard/ui/ToolCardView";
 import React from "react";
 import { viewData } from "./data";
 
