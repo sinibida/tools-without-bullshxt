@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  gap: 16px;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+  aspect-ratio: 1;
+  background-color: var(--bg-2);
+}
+
+.title {
+  display: flex;
+  font-size: 1rem;
+}
+
+.description {
+  display: flex;
+  color: var(--fg-info);
+  font-size: 0.8rem;
+  line-clamp: 1;
+  text-overflow: ellipsis;
+}
+
+.tagContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  display: flex;
+  font-weight: 700;
+  font-size: 0.6rem;
+  border: rgba(from var(--accent) r g b / .5) 1px solid;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(from var(--accent) r g b / .3), rgba(from var(--accent) r g b / 0.1));
+  padding: 1px 4px;
+}

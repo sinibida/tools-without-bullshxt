@@ -3,6 +3,11 @@
   --bg-2: #ededed;
   --fg: #171717;
   --fg-info: #777777;
+
+  --border: #dddddd;
+  --border-active: #aaaaaa;
+  
+  --accent: #ff1660;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,6 +16,10 @@
     --bg-2: #171717;
     --fg: #ededed;
     --fg-info: #777777;
+
+    --border: #333333;
+    --border-active: #555555;
+
   }
 }
 

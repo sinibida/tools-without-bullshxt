@@ -9,6 +9,7 @@
   - [ ] json 로드 유틸리티 파악/구현
   - [ ] 라우팅 적용
 
+- [ ] favicon API 사용하기
 
 # 목록 열람
 
@@ -26,11 +27,9 @@
 
 ## Components
 
-- [ ] ToolCard
+- [x] ToolCard
   - [x] ToolCardView
-  - [ ] ToolDto -> ToolCardViewData
-- [ ] ToolDocumnet
-  - [ ] ToolDocumentView
+  - [x] ToolDto -> ToolCardViewData
 
 
 # 목록 검색
@@ -45,3 +44,7 @@
 # 목록 수정
 
 > SPAUPA는 웹사이트 서버 내 파일에 도구를 추가/수정/삭제할 수 있다.
+
+# 공통
+
+- [ ] Pretendard 폰트 설치

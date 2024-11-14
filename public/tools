@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Metronome",
+    "description": "Normal Metronome App",
+    "tags": ["music", "metronome"],
+    "toolUrl": "https://www.metronome-app.com/"
+  },
+  {
+    "id": 2,
+    "title": "KeyBR",
+    "description": "Good typing practice app",
+    "tags": ["typing"],
+    "toolUrl": "https://www.keybr.com/"
+  },
+  {
+    "id": 3,
+    "title": "Dog API",
+    "description": "Doggie image API",
+    "tags": ["mock-api", "images"],
+    "toolUrl": "https://dog.ceo/dog-api/"
+  },
+  {
+    "id": 4,
+    "title": "Dicebear",
+    "description": "Icon related API",
+    "tags": ["mock-api", "icons"],
+    "toolUrl": "https://www.dicebear.com/styles/"
+  },
+  {
+    "id": 5,
+    "title": "Unsplash",
+    "description": "Free stock photos",
+    "tags": ["images"],
+    "toolUrl": "https://unsplash.com/"
+  },
+  {
+    "id": 6,
+    "title": "Quickposes",
+    "description": "Croquis references",
+    "tags": ["images", "drawing"],
+    "toolUrl": "https://quickposes.com/en/gestures/timed"
+  }
+]
