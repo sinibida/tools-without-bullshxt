@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import styles from "./page.module.css";
+import Loading from "@/components/layouts/Loading";
+import { getAllTools } from "@/entities/dto/ToolDto";
 import ToolCardList from "@/widgets/ToolCardList";
 import { useQuery } from "@tanstack/react-query";
-import { getAllTools } from "@/entities/dto/ToolDto";
-import Loading from "@/components/layouts/Loading";
+import styles from "./page.module.css";
 
 export default function Home() {
   const query = useQuery({
