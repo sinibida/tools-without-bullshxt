@@ -1,0 +1,4 @@
+interface ToolCardViewData {
+  faviconUri: string,
+  
+}
