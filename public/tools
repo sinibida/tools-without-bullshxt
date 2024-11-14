@@ -16,8 +16,29 @@
   {
     "id": 3,
     "title": "Dog API",
-    "description": "Normal Metronome App",
+    "description": "Doggie image API",
     "tags": ["mock-api", "images"],
     "toolUrl": "https://dog.ceo/dog-api/"
+  },
+  {
+    "id": 4,
+    "title": "Dicebear",
+    "description": "Icon related API",
+    "tags": ["mock-api", "icons"],
+    "toolUrl": "https://www.dicebear.com/styles/"
+  },
+  {
+    "id": 5,
+    "title": "Unsplash",
+    "description": "Free stock photos",
+    "tags": ["images"],
+    "toolUrl": "https://unsplash.com/"
+  },
+  {
+    "id": 6,
+    "title": "Quickposes",
+    "description": "Croquis references",
+    "tags": ["images", "drawing"],
+    "toolUrl": "https://quickposes.com/en/gestures/timed"
   }
 ]
