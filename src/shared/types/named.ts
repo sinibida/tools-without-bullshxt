@@ -4,4 +4,4 @@
  * 1. Must be kebab cased (ex: 'hello-world')
  */
 export type StringID = string;
-export type StringNamed = string;
+export type StringUrl = string;
