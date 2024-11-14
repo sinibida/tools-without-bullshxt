@@ -11,6 +11,11 @@
     --bg-2: #171717;
     --fg: #ededed;
     --fg-info: #777777;
+
+    --border: #333333;
+    --border-active: #555555;
+
+    --accent: #1687ff;
   }
 }
 

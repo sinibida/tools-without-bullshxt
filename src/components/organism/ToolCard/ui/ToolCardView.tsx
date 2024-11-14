@@ -9,7 +9,7 @@ export default function ToolCardView({ data }: { data: ToolCardViewData }) {
     <div className={styles.container}>
       <Image
         className={styles.image}
-        src={faviconUri}
+        src={faviconUri ?? ""}
         alt="Tool Icon"
         width={128}
         height={128}
@@ -17,6 +17,9 @@ export default function ToolCardView({ data }: { data: ToolCardViewData }) {
       <div className={styles.containerRight}>
         <p className={styles.title}>{title}</p>
         <p className={styles.description}>{description}</p>
+
+        <div style={{ flex: 1 }} />
+
         <div className={styles.tagContainer}>
           {tags.map((tag, i) => (
             <p className={styles.tag} key={i}>

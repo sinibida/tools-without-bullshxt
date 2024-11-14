@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
 import Loading from "@/components/layouts/Loading";
 import { getTool } from "@/entities/dto/ToolDto";
 import { useQuery } from "@tanstack/react-query";
 import { fromDto } from "../model";
 import ToolCardView from "./ToolCardView";
+import styles from "./ToolCard.module.css";
 
 const ToolCardQuery = Symbol("ToolCardQuery");
 
@@ -19,7 +20,7 @@ export default function ToolCard({ id }: { id: number }) {
   const data = query.data!;
 
   return (
-    <div>
+    <div className={styles.container}>
       <Loading query={query}>{<ToolCardView data={data} />}</Loading>
     </div>
   );
