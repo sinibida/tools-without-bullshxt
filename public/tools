@@ -3,7 +3,21 @@
     "id": 1,
     "title": "Metronome",
     "description": "Normal Metronome App",
-    "tags": ["Music", "Metronome"],
+    "tags": ["music", "metronome"],
     "toolUrl": "https://www.metronome-app.com/"
+  },
+  {
+    "id": 2,
+    "title": "KeyBR",
+    "description": "Good typing practice app",
+    "tags": ["typing"],
+    "toolUrl": "https://www.keybr.com/"
+  },
+  {
+    "id": 3,
+    "title": "Dog API",
+    "description": "Normal Metronome App",
+    "tags": ["mock-api", "images"],
+    "toolUrl": "https://dog.ceo/dog-api/"
   }
 ]
