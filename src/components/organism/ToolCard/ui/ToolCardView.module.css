@@ -30,6 +30,8 @@
   display: flex;
   color: var(--fg-info);
   font-size: 0.8rem;
+  line-clamp: 1;
+  text-overflow: ellipsis;
 }
 
 .tagContainer {
