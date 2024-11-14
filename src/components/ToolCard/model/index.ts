@@ -1,6 +1,7 @@
 import { StringUrl } from "@/shared/types/named";
 
 export interface ToolCardViewData {
+  id: number,
   faviconUri: StringUrl,
   title: string,
   /**

@@ -6,3 +6,9 @@ export async function getAllTools() {
 
   return response.data as ToolDto[];
 }
+
+export async function getTool(id: number) {
+  const tools = await getAllTools();
+
+  return tools.find(x => x.id === id);
+}
