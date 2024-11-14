@@ -17,11 +17,16 @@ export default function ToolCard({ id }: { id: number }) {
     },
   });
 
-  const data = query.data!;
+  const data = query.data;
+  if (data === undefined) return undefined;
 
   return (
-    <div className={styles.container}>
-      <Loading query={query}>{<ToolCardView data={data} />}</Loading>
-    </div>
+    <Loading query={query}>
+      <a href={data.toolUrl} target="_blank">
+        <div className={styles.container}>
+          <ToolCardView data={data} />
+        </div>
+      </a>
+    </Loading>
   );
 }
