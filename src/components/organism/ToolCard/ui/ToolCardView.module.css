@@ -18,6 +18,7 @@
   height: 100%;
   width: auto;
   aspect-ratio: 1;
+  background-color: var(--bg-2);
 }
 
 .title {
