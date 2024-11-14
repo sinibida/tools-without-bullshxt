@@ -9,6 +9,7 @@
   - [ ] json 로드 유틸리티 파악/구현
   - [ ] 라우팅 적용
 
+- [ ] favicon API 사용하기
 
 # 목록 열람
 
@@ -26,11 +27,9 @@
 
 ## Components
 
-- [ ] ToolCard
+- [x] ToolCard
   - [x] ToolCardView
-  - [ ] ToolDto -> ToolCardViewData
-- [ ] ToolDocumnet
-  - [ ] ToolDocumentView
+  - [x] ToolDto -> ToolCardViewData
 
 
 # 목록 검색
