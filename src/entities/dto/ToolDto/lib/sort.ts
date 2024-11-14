@@ -10,6 +10,8 @@ function compareStringArray(a: string[], b: string[]) {
     const bb = b[at];
     if (aa > bb) return 1;
     if (aa < bb) return -1;
+
+    at += 1;
   }
 
   return 0;
@@ -25,5 +27,5 @@ export function sortTools(data: ToolDto[]) {
     compareStringArray(a.sortedTags, b.sortedTags)
   );
 
-  return sorted.map((x) => ({...x.ref, tags: x.sortedTags}));
+  return sorted.map((x) => ({ ...x.ref, tags: x.sortedTags }));
 }
