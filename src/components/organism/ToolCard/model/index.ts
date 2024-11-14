@@ -1,9 +1,10 @@
 import { ToolDto } from "@/entities/dto/ToolDto";
+import { getPageMetaData } from "@/entities/PageMetadata/api";
 import { StringUrl } from "@/shared/types/named";
 
 export interface ToolCardViewData {
   id: number;
-  faviconUri: StringUrl;
+  faviconUri?: StringUrl;
   title: string;
   /**
    * Preferably around 2 lines.
@@ -18,9 +19,11 @@ export async function fromDto(dto: ToolDto): Promise<ToolCardViewData> {
 
   const tags = _tags; // TODO: Map tags to display name
 
+  const metadata = await getPageMetaData(toolUrl);
+
   return {
     description,
-    faviconUri: 'https://api.dicebear.com/9.x/identicon/png?seed="Felix"', // TODO: Use API
+    faviconUri: metadata.faviconUrl, // TODO: Use API
     id,
     tags,
     title,
