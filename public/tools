@@ -40,5 +40,12 @@
     "description": "Croquis references",
     "tags": ["images", "drawing"],
     "toolUrl": "https://quickposes.com/en/gestures/timed"
+  },
+  {
+    "id": 7,
+    "title": "Desmos",
+    "description": "2D Graphing tool",
+    "tags": ["graphing", "math"],
+    "toolUrl": "https://www.desmos.com/calculator"
   }
 ]
