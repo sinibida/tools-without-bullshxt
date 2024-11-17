@@ -47,5 +47,12 @@
     "description": "2D Graphing tool",
     "tags": ["graphing", "math"],
     "toolUrl": "https://www.desmos.com/calculator"
+  },
+  {
+    "id": 8,
+    "title": "Detexify",
+    "description": "Search latex symbol",
+    "tags": ["latex", "math"],
+    "toolUrl": "https://detexify.kirelabs.org/classify.html"
   }
 ]
