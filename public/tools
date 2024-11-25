@@ -54,5 +54,13 @@
     "description": "Search latex symbol",
     "tags": ["latex", "math"],
     "toolUrl": "https://detexify.kirelabs.org/classify.html"
+  },
+  {
+    "id": 9,
+    "title": "API Ninjas",
+    "description": "Phone Numbers, Quotes, and more",
+    "tags": ["mock-api"],
+    "toolUrl": "https://www.api-ninjas.com/api",
+    "aBitOfBS": true
   }
 ]
