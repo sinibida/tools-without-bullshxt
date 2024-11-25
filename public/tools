@@ -61,6 +61,6 @@
     "description": "Phone Numbers, Quotes, and more",
     "tags": ["mock-api"],
     "toolUrl": "https://www.api-ninjas.com/api",
-    "aBitOfBS": true
+    "hasBitOfBS": true
   }
 ]

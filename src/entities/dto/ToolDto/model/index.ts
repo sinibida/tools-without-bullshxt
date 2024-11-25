@@ -4,4 +4,5 @@ export interface ToolDto {
   description: string;
   tags: string[];
   toolUrl: string;
+  hasBitOfBS?: boolean;
 }

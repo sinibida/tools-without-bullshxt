@@ -4,7 +4,7 @@ import styles from "./ToolCardView.module.css";
 import Image from "next/image";
 
 export default function ToolCardView({ data }: { data: ToolCardViewData }) {
-  const { description, faviconUri, tags, title } = data;
+  const { description, faviconUri, tags, title, hasBitOfBS } = data;
   return (
     <div className={styles.container}>
       <Image
@@ -28,6 +28,12 @@ export default function ToolCardView({ data }: { data: ToolCardViewData }) {
           ))}
         </div>
       </div>
+      {/* TODO add intructional message about asterisk*/}
+      {hasBitOfBS && (
+        <div className={styles.overlayAsterisk}>
+          <p>*</p>
+        </div>
+      )}
     </div>
   );
 }

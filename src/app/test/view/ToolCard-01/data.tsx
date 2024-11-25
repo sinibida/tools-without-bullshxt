@@ -18,4 +18,13 @@ export const viewData: ToolCardViewData[] = [
     faviconUri: "https://www.metronome-app.com/favicon.ico",
     toolUrl: "https://www.metronome-app.com/",
   },
+  {
+    id: 3,
+    title: "BShitty",
+    description: "Normal Metronome App",
+    tags: ["Music", "Metronome"],
+    faviconUri: "https://www.metronome-app.com/favicon.ico",
+    toolUrl: "https://www.metronome-app.com/",
+    hasBitOfBS: true,
+  },
 ];

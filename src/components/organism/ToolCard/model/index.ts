@@ -12,10 +12,11 @@ export interface ToolCardViewData {
   description: string;
   tags: string[];
   toolUrl: StringUrl;
+  hasBitOfBS?: boolean;
 }
 
 export async function fromDto(dto: ToolDto): Promise<ToolCardViewData> {
-  const { description, id, tags: _tags, title, toolUrl } = dto;
+  const { description, id, tags: _tags, title, toolUrl, hasBitOfBS } = dto;
 
   const tags = _tags; // TODO: Map tags to display name
 
@@ -28,5 +29,6 @@ export async function fromDto(dto: ToolDto): Promise<ToolCardViewData> {
     tags,
     title,
     toolUrl,
+    hasBitOfBS: hasBitOfBS ?? false,
   };
 }
