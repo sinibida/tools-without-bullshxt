@@ -65,6 +65,7 @@
   align-items: center;
   margin-top: 64px;
   gap: 16px;
+  margin-bottom: 48px;
 
   & > svg {
     stroke: var(--fg-info);
