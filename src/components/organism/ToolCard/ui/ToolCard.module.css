@@ -1,12 +1,1 @@
-.container {
-  border: var(--border) solid 1px;
-  border-radius: 8px;
-  height: 80px;
-  min-width: 260px;
-  position: relative;
-  overflow: hidden;
-
-  &:hover {
-    border-color: var(--border-active);
-  }
-}
+.container {}
