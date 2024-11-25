@@ -66,6 +66,7 @@
   justify-content: end;
   align-items: start;
   padding: 8px;
+  user-select: none;
 
   & p {
     font-size: 9rem;
